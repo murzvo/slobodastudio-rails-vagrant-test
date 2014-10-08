@@ -8,7 +8,10 @@
 /.bundle
 
 # bundler-installed gems
-vendor/bundle
+/vendor/bundle
+
+# database configuration
+/config/database.yml
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
